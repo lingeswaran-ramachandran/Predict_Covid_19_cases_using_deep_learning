@@ -1,5 +1,6 @@
 Title : Predict_Covid_19_cases_using_deep_learning
-Description : have build a model to predict new cases (cases_new) in Malaysia using the past 30 days of number of cases using LSTM  neural network(deep learning)
+
+Description : have build a model to predict new cases  in Malaysia using the past 30 days of number of cases using LSTM  neural network(deep learning)
 
 <a><img alt = 'image' src="https://img.shields.io/badge/Spyder%20Ide-FF0000?style=for-the-badge&logo=spyder%20ide&logoColor=white"></a>
 <a><img alt='tf' src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"></a>
@@ -8,8 +9,6 @@ Description : have build a model to predict new cases (cases_new) in Malaysia us
 <a><img alt = 'image' src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white"></a>
 <a><img alt = 'image' src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"></a>
 <a><img alt = 'image' src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"></a>
-<a><img alt = 'image' src="https://img.shields.io/badge/SciPy-654FF0?style=for-the-badge&logo=SciPy&logoColor=white"></a>
-<a><img alt = 'image' src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white"></a>
 
 # The best accuracy
 ![MAPE_MAE_MQE_scores](https://user-images.githubusercontent.com/107612407/175526261-eb49fc2b-fb69-454a-be0a-78de29696866.JPG)
@@ -19,7 +18,6 @@ Description : have build a model to predict new cases (cases_new) in Malaysia us
 ![tensorboard_epoch_mape](https://user-images.githubusercontent.com/107612407/175525913-32d18c57-ca8b-4485-b5e0-9f0672e51e33.JPG)
 
 ## Github link URL
-
 [![click_me]('[https://github.com/lingeswaran-ramachandran/Predict_Covid_19_cases_using_deep_learning.git)')
 
 # Add images
@@ -35,3 +33,9 @@ Description : have build a model to predict new cases (cases_new) in Malaysia us
 Data can be obtained from
 # Cite of source
 # MoH-Malaysia/covid19-public: Official data on the COVID-19 epidemic in Malaysia. Powered by CPRC, CPRC Hospital System, MKAK, and MySejahtera.
+
+Discussion:-
+# The model is able to predict the trend of the covid-19 cases
+# 21 % MAPE when tested against testing dataset
+# The graph is overfitting 
+# Can increase the dropout rate and neuron to increase the performance
